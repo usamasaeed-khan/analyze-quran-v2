@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AnalyzeQuranUpdated</string>
+    <string name="Open">Drawer Opened</string>
+    <string name="Close">Drawer Closed</string>
+
+
+    <string name="bank_details">
+        Bank: Faysal Bank
+        \nTitle: Muhammad Danish
+        \nAccount Number: 03420060000098
+        \nIBAN: PK18FAYS0003420060000098
+    </string>
+
+
+    <string name="donations_text">
+        Analyze Quran is an App, which allows not just reading but studying and analyzing Quran. You can read Quran text, its translation, analyze any word with word by word translation and find out all the verses in Quran with that word used. You can find out all the verses in Quran for a topic with Quran Dictionary.
+    </string>
+
+
+    <string name="linkCreditCard">GetSafePay: <a href="https://sandbox.api.getsafepay.com/connect/me/1234">Click Here</a></string>
+
+    <string name="linkPayPal">PayPal: <a href="http://www.paypal.com">Click Here</a></string>
+</resources>

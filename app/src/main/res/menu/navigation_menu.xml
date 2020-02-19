@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/dictionary"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:title="Quran Dictionary"/>
+
+
+
+    <item
+        android:id="@+id/dictionary_arabic"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:title="Arabic Dictionary"/>
+
+
+    <item
+        android:id="@+id/translation"
+        android:icon="@drawable/ic_translate_black_24dp"
+        android:title="Select Translation"/>
+
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_people_outline_black_24dp"
+        android:title="About us"/>
+
+
+    <item
+        android:id="@+id/donate"
+        android:icon="@drawable/ic_payment_black_24dp"
+        android:title="Donate"/>
+
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_feedback_black_24dp"
+        android:title="Send Feedback"/>
+
+
+    <item
+        android:id="@+id/tour"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="Start Tour"/>
+
+</menu>
