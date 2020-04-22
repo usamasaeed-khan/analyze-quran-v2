@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress_bar_dict"
+        style="?android:attr/progressBarStyle"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_search_framelayout">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:id="@+id/actionbar_search"/>
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_view"/>
+    </FrameLayout>
+
+
+
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/toolbar_search_framelayout"
         android:id="@+id/recycler_view_alphabets"
         android:layout_width="match_parent"
         android:layout_gravity="center_horizontal"
@@ -14,4 +44,12 @@
         />
 
 
-</LinearLayout>
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World"-->
+<!--        android:textSize="50sp"-->
+<!--        android:layout_gravity="center"/>-->
+
+
+</RelativeLayout>

@@ -15,9 +15,14 @@ interface APIService {
     ):Call<ArrayList<String>>
 
 
-
     @GET("GetWordsFromEntry")
     fun GetWordsFromEntry(
         @Query("root")root:String
     ):Call<ArrayList<String>>
+
+    @GET("GetMeaningFromWord")
+    fun GetMeaningFromWord(
+        @Query("word")word:String
+    ):Call<String>
+
 }
